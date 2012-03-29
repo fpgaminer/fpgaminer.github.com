@@ -3,4 +3,19 @@ layout: default
 title: Bitcoin Mining, Inside and Out
 ---
 
-<p>Welcome!</p>
+<p>I am writing *Bitcoin Mining, Inside and Out* as a series of informative posts that cover everything about Bitcoin Mining, from big ideas like why we mine, down to tiny details like the HTTP protocols. I will try my best to break these amazingly interesting and highly technical concepts down into simple explainations. So, hopefully, everyone can understand them and benefit from knowing more about the Bitcoins they mine and use.
+<br /><br />
+Why am I writing this? Imagine driving a car on a rainy road without knowing how friction works. You can do it, but you'll be much better off, and safer, knowing just how hard you can take those water slicked corners on the road. In the same vein, knowing more about how the cogs of the bitcoin mining machine actually turn will inevitably make you a better miner. They say knowledge is power, and I say learning is fun!
+<br /><br />
+If you have any questions, suggestions, or comments feel free to email me: <address><a href="mailto:fpgaminer@bitcoin-mining.com">fpgaminer@bitcoin-mining.com</a></address>.
+</p>
+
+
+
+<br /><br /><br />
+{% for post in site.posts limit:5 %}
+<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+{{ post.content }}
+<em>Posted on {{ post.date | date_to_long_string }}.</em>
+{% endfor %}
+
