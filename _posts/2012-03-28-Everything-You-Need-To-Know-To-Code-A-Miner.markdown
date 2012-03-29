@@ -3,7 +3,7 @@ layout: default
 title: Everything You Need To Know To Code a Miner
 ---
 
-This article is going to cover everything that you'll need to know to code mining software. We're going to deal strictly with what's required to write mining software that talks to a Mining Pool, because it's a little bit easier to understand, it's the most common usage of mining software, and mining solo isn't much different. In fact, any software written to work with a Mining Pool will also work as a solo miner (but perhaps not as efficiently).
+This article will cover everything that you'll need to know to code mining software. We're going to deal strictly with what's required to write mining software that talks to a Mining Pool, because it's a little bit easier to understand, it's the most common usage of mining software, and mining solo isn't much different. In fact, any software written to work with a Mining Pool will also work as a solo miner (but perhaps not as efficiently).
 
 
 **Overview**
