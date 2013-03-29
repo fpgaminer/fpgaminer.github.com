@@ -20,7 +20,4 @@ Please note that this series of articles is still very much in-progress and inco
 <br /><br /><br />
 ## Articles
 
-<ul class="posts">
-  {% assign pages_list = site.tags.mining_inside_out}
-  {% include JB/pages_list %}
-</ul>
+
