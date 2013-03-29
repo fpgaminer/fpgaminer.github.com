@@ -3,7 +3,7 @@ layout: post
 title: "Everything You Need To Know To Code a Miner"
 description: ""
 category:
-tags: [mining_inside_out mining-inside-and-out]
+tags: [mining_inside_out, mining-inside-and-out]
 ---
 {% include JB/setup %}
 
